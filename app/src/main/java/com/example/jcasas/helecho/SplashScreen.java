@@ -1,8 +1,12 @@
 package com.example.jcasas.helecho;
 
 import android.content.Intent;
+import android.content.res.AssetManager;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import java.util.Locale;
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -10,6 +14,7 @@ public class SplashScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
+
         Thread t = new Thread() {
             @Override
             public void run() {

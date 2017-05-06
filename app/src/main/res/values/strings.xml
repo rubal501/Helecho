@@ -42,5 +42,11 @@
     <string name="category_illumination">Iluminarias</string>
     <string name="category_accessory">Accesorios</string>
 
+    <!-- Nav headr -->
+    <string name="header_welcome">¡Bienvenido! @Usuario\nPiensa verde</string>
+
+    <!-- Misc strings -->
+    <string name="toolbar_products">Productos</string>
+
 
 </resources>
