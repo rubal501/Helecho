@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Helecho</string>
+
+    <!-- Related to login -->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login_title">Inicio de sesión</string>
+    <string name="login_hint_correo">Correo electrónico</string>
+    <string name="login_hint_password">Contraseña</string>
+    <string name="login_button">Inicia sesión</string>
+    <string name="login_hint_not_account">¿No tienes una cuenta? <u>Inicia sesión</u></string>
+
+    <!-- Related to signup -->
+    <string name="signup_title">Registro</string>
+    <string name="signup_hint_correo">Correo electrónico</string>
+    <string name="signup_hint_password">Contraseña</string>
+    <string name="signup_hint_password_confirm">Confirma tu contraseña</string>
+    <string name="signup_hint_nombre">Nombre</string>
+    <string name="signup_hint_apellido">Apellido</string>
+    <string name="signup_estado_selector_title">Estado</string>
+    <string name="signup_estado_selector_default">Selecciona</string>
+    <string name="signup_button">Regístrate</string>
+    <string name="signup_prompt">Elige un estado</string>
+
+    <!-- Related to nav menu -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_categories">Categorías</string>
+    <string name="nav_profile">Mi cuenta</string>
+    <string name="nav_purchases">Compras</string>
+    <string name="nav_sales">Ventas</string>
+    <string name="nav_logout">Cerrar sesión</string>
+    <string name="nav_about">Acerca de Helecho</string>
+    <string name="nav_close">close</string>
+    <string name="nav_open">open</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Related to category fragment -->
+    <string name="category_sofa">Sillones</string>
+    <string name="category_room">Recámaras</string>
+    <string name="category_containers">Contenedores</string>
+    <string name="category_tables">Mesas</string>
+    <string name="category_illumination">Iluminarias</string>
+    <string name="category_accessory">Accesorios</string>
+
+
+</resources>

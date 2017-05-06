@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jcasas.helecho.SignupActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signup_title"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/titles"
+        android:paddingTop="60dp"
+        android:paddingBottom="60dp"
+        android:textColor="@color/colorBlack"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/editSignupName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/signup_hint_nombre"
+            android:paddingRight="60dp"
+            />
+
+        <EditText
+            android:id="@+id/editSignupApellido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/signup_hint_apellido"
+            android:paddingRight="60dp"
+            />
+    </LinearLayout>
+    
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/estados_array"
+        android:prompt="@string/signup_prompt"
+        >
+
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/editSignupEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/signup_hint_correo"
+        android:paddingTop="40dp"
+        android:inputType="textEmailAddress"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="40dp"
+        >
+        <EditText
+            android:id="@+id/editSignupPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/signup_hint_password"
+            android:inputType="textPassword"
+            />
+
+        <EditText
+            android:id="@+id/editSignupPasswordConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/signup_hint_password_confirm"
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/buttonSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.Button"
+        android:text="@string/signup_button"
+        />
+
+
+</LinearLayout>

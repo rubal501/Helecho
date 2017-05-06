@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jcasas.helecho.LoginActivity"
+    tools:showIn="@layout/activity_login"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_title"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/titles"
+        android:textColor="@color/colorBlack"
+        android:paddingBottom="40dp"
+        />
+    <EditText
+        android:id="@+id/editEmailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_hint_correo"
+        android:inputType="textEmailAddress"
+        android:paddingTop="40dp"
+        />
+    <EditText
+        android:id="@+id/editPassLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_hint_password"
+        android:inputType="textPassword"
+        android:paddingTop="40dp"
+        />
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button"
+        android:theme="@style/AppTheme.Button"
+        />
+
+    <TextView
+        android:id="@+id/loginRegisterHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/login_hint_not_account"
+        android:clickable="true"
+        />
+
+</LinearLayout>
